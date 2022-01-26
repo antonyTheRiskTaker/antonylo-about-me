@@ -114,7 +114,7 @@ Hero Section (From line 114 - )
 .hero {
   width: 100%;
   height: 100vh;
-  background: url('/images/maurelius_lverus.jpg') no-repeat center fixed;
+  background: url('../images/maurelius_lverus.jpg') no-repeat center fixed;
   background-size: cover;
   color: ivory;
 }
