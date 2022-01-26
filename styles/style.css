@@ -163,7 +163,7 @@ Hero Section (From line 157 - 207)
 #hero {
   width: 100%;
   height: 100vh;
-  background: url('/images/Marcus_Aurelius_Glyptothek_München.jpg') no-repeat center fixed;
+  background: url('../images/Marcus_Aurelius_Glyptothek_München.jpg') no-repeat center fixed;
   background-size: cover;
   color: ivory;
 }
