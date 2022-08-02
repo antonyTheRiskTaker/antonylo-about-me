@@ -1,0 +1,54 @@
+:root {
+  /* Font style for the whole page */
+  font-family: monospace, 'Times New Roman', serif;
+  
+  /* Custom colours for the whole page */
+  --classical-lead: #605d5d;
+  --classical-slate-grey: #6c7a82;
+  --classical-clay: #bc685c;
+  --classical-red: #902028;
+  --ocean: #016064;
+  --warm-orange: #ffa500;
+  --bright-silver: #d9dadb;
+}
+
+body {
+  background-color: ivory;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: var(--classical-lead);
+}
+
+table {
+  border: 2px solid var(--classical-slate-grey);
+  width: 50%;
+  margin: 0 auto;
+}
+
+thead {
+  text-align: center;
+  background-color: var(--warm-orange);
+}
+
+td {
+  border-top: 1px solid var(--classical-slate-grey);
+}
+
+.code {
+  font-family: Arial, Verdana;
+  background-color: var(--bright-silver);
+  color: var(--ocean);
+  font-weight: bold;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.unfinished {
+  background-color: var(--classical-clay);
+}
